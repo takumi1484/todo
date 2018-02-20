@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ip', function () {
+    return view('ip.index');
+});
